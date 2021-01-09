@@ -1,0 +1,26 @@
+{
+  "name": "khet",
+  "version": "1.0.0",
+  "description": "Laser Chess is a game",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael",
+  "license": "MIT",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mh5001/khet.git"
+  },
+  "keywords": [
+    "khet",
+    "laser-chess"
+  ],
+  "bugs": {
+    "url": "https://github.com/mh5001/khet/issues"
+  },
+  "homepage": "https://github.com/mh5001/khet#readme"
+}
