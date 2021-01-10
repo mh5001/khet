@@ -2,7 +2,8 @@
 A pure Khet library with 0 dependencies written in Node.js
 
 ## Description
-https://en.wikipedia.org/wiki/Khet_(game)
+* https://en.wikipedia.org/wiki/Khet_(game)
+* https://www.thinkfun.com/wp-content/uploads/2017/10/LaserCh-1034-Instructions.pdf
 
 # Installation
 ```npm i khet```
@@ -22,6 +23,10 @@ const game = new Khet();
 #### boardSetup : String
 Name of the board, availabe setups are:
 * ACE
+* CURIOSITY
+* GRAIL
+* MERCURY
+* SOFIE
 
 ### Create a simple display of the board:
 

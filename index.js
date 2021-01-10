@@ -18,6 +18,7 @@ module.exports = class Board {
 
     setupBoard(setupName) {
         const setup = boardSetup[setupName];
+        if (!setup) throw "Board not defined!";
         this.pieces.length = 0;
         setup.deflector.forEach(d => {
             const pb = new Piece.Deflector(d[0], d[1], d[2], 2, this.board, this.turn);
